@@ -1,0 +1,31 @@
+.composition {
+	padding-bottom: 180px;
+
+	&__title {
+		text-align: center;
+	}
+
+	&__text {
+		text-align: center;
+		max-width: 655px;
+		margin: 0 auto 40px;
+	}
+
+	&__inner {
+		max-width: 625px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+
+		&-text {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			gap: 15px;
+
+			p {
+				max-width: 230px;
+			}
+		}
+	}
+}
