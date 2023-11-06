@@ -1,0 +1,159 @@
+@media (max-width: 1469px) {
+	.choose-color__list {
+		flex-wrap: wrap;
+	}
+	.title {
+		font-size: 180px;
+		transform: translate(127px, 29px);
+	}
+}
+
+@media (max-width: 1349px) {
+	.title {
+		transform: none;
+		font-size: 140px;
+		padding-top: 16vh;
+		left: 0;
+		right: 0;
+		text-align: center;
+		&-pod {
+			z-index: 1;
+		}
+		&--s,
+		&--ax {
+			transform: none;
+		}
+		&--m {
+			transform: none;
+			padding-left: 15px;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.choose-color__list {
+		max-width: 865px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 930px) {
+	.title {
+		position: relative;
+		font-size: 100px;
+		top: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.choose-color {
+		margin-bottom: 60px;
+
+		&__list {
+			gap: 16px;
+		}
+	}
+	.main__title {
+		font-size: 36px;
+	}
+	.composition {
+		margin-bottom: 60px;
+	}
+	.case {
+		padding: 60px 0;
+	}
+	.energy {
+		&__title {
+			padding-top: 60px;
+			margin-bottom: 20px;
+		}
+		&__num {
+			font-size: 110px;
+			margin-bottom: 20px;
+		}
+	}
+	.title {
+		font-size: 58px;
+	}
+}
+
+@media (max-width: 560px) {
+	.choose-color {
+		padding-bottom: 40px;
+		&__text {
+			margin-bottom: 40px;
+		}
+	}
+	.case {
+		padding: 40px 0;
+	}
+	.composition {
+		&__inner {
+			flex-wrap: wrap;
+			gap: 40px;
+			justify-content: center;
+			&-text {
+				p {
+					max-width: 100%;
+				}
+			}
+		}
+	}
+	.menu {
+		&__list {
+			flex-wrap: wrap;
+			gap: 20px 40px;
+		}
+		&__item {
+			&:first-child {
+				margin-left: auto;
+			}
+			&-btn {
+				margin-left: auto;
+				button {
+					width: 250px;
+				}
+			}
+		}
+	}
+	.header__top {
+		align-items: flex-start;
+	}
+}
+
+@media (max-width: 414px) {
+	.main__title,
+	.choose-color__title {
+		font-size: 28px;
+	}
+	.energy__num {
+		font-size: 92px;
+	}
+	.case img {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 404px) {
+	.title {
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 354px) {
+	.title {
+		font-size: 48px;
+	}
+}
+
+@media (max-width: 340px) {
+	.title {
+		font-size: 46px;
+	}
+}
+
+@media (max-width: 328px) {
+	.title {
+		font-size: 44px;
+	}
+}
