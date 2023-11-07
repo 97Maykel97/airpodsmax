@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>Document</title>
+		<title>AirPods Max</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -50,14 +50,31 @@
 					</h1>
 				</div>
 				<div class="header__content-images">
-					<!-- <img src="images/airpods-white.png" alt="Наушники AirPods белого цвета" /> -->
-					<!-- <img src="images/airpods-black.png" alt="Наушники AirPods черного цвета" /> -->
 					<img
+						class="content-item color--white"
+						src="images/airpods-white.png"
+						alt="Наушники AirPods белого цвета"
+					/>
+					<img
+						class="content-item color--black"
+						src="images/airpods-black.png"
+						alt="Наушники AirPods черного цвета"
+					/>
+					<img
+						class="content-item color--blue content-item__active"
 						src="images/airpods-blue.png"
 						alt="Наушники AirPods синего цвета"
 					/>
-					<!-- <img src="images/airpods-green.png" alt="Наушники AirPods зеленого цвета" /> -->
-					<!-- <img src="images/airpods-red.png" alt="Наушники AirPods красного цвета" /> -->
+					<img
+						class="content-item color--green"
+						src="images/airpods-green.png"
+						alt="Наушники AirPods зеленого цвета"
+					/>
+					<img
+						class="content-item color--red"
+						src="images/airpods-red.png"
+						alt="Наушники AirPods красного цвета"
+					/>
 				</div>
 			</div>
 		</header>
@@ -74,40 +91,43 @@
 					</p>
 
 					<div class="choose-color__list">
-						<button class="choose-color__btn">
+						<button class="choose-color__btn" data-button="color--green">
 							<img
 								src="images/btn-green.png"
 								alt="Кнопка с наушниками AirPods зеленого цвета"
 							/>
 						</button>
 
-						<button class="choose-color__btn">
+						<button class="choose-color__btn" data-button="color--white">
 							<img
 								src="images/btn-white.png"
 								alt="Кнопка с наушниками AirPods белого цвета"
 							/>
 						</button>
 
-						<button class="choose-color__btn">
+						<button class="choose-color__btn" data-button="color--red">
 							<img
 								src="images/btn-red.png"
 								alt="Кнопка с наушниками AirPods красного цвета"
 							/>
 						</button>
 
-						<button class="choose-color__btn">
+						<button class="choose-color__btn" data-button="color--black">
 							<img
 								src="images/btn-black.png"
 								alt="Кнопка с наушниками AirPods черного цвета"
 							/>
 						</button>
 
-						<!-- <button class="choose-color__btn">
+						<button
+							class="choose-color__btn choose-color__btn--active"
+							data-button="color--blue"
+						>
 							<img
 								src="images/btn-blue.png"
 								alt="Кнопка с наушниками AirPods синего цвета"
 							/>
-						</button> -->
+						</button>
 					</div>
 				</div>
 			</section>
@@ -146,31 +166,31 @@
 						<img
 							src="images/side-blue.jpg"
 							alt="Наушники AirPods синего цвета вид сбоку"
-							class=""
+							class="content-item color--blue content-item__active"
 						/>
-						<!-- 	<img
-						src="images/side-red.jpg"
-						alt="Наушники AirPods красный цвета вид сбоку"
-						class=""
-					/>
+						<img
+							src="images/side-red.jpg"
+							alt="Наушники AirPods красный цвета вид сбоку"
+							class="content-item color--red"
+						/>
 
-					<img
-						src="images/side-white.jpg"
-						alt="Наушники AirPods белого цвета вид сбоку"
-						class=""
-					/>
+						<img
+							src="images/side-white.jpg"
+							alt="Наушники AirPods белого цвета вид сбоку"
+							class="content-item color--white"
+						/>
 
-					<img
-						src="images/side-green.jpg"
-						alt="Наушники AirPods зеленого цвета вид сбоку"
-						class=""
-					/>
+						<img
+							src="images/side-green.jpg"
+							alt="Наушники AirPods зеленого цвета вид сбоку"
+							class="content-item color--green"
+						/>
 
-					<img
-						src="images/side-black.jpg"
-						alt="Наушники AirPods черного цвета вид сбоку"
-						class=""
-					/> -->
+						<img
+							src="images/side-black.jpg"
+							alt="Наушники AirPods черного цвета вид сбоку"
+							class="content-item color--black"
+						/>
 					</div>
 				</div>
 			</section>
@@ -188,25 +208,30 @@
 						low-power state to save energy.
 					</p>
 					<img
+						class="content-item color--blue content-item__active"
 						src="images/case-blue.jpg"
 						alt="Кейс от наушников AirPods синего цвета"
 					/>
-					<!-- <img
+					<img
+						class="content-item color--red"
 						src="images/case-red.jpg"
 						alt="Кейс от наушников AirPods красного цвета"
 					/>
 					<img
+						class="content-item color--white"
 						src="images/case-white.jpg"
 						alt="Кейс от наушников AirPods белого цвета"
 					/>
 					<img
+						class="content-item color--green"
 						src="images/case-green.jpg"
 						alt="Кейс от наушников AirPods зеленого цвета"
 					/>
 					<img
+						class="content-item color--black"
 						src="images/case-black.jpg"
 						alt="Кейс от наушников AirPods черного цвета"
-					/> -->
+					/>
 
 					<h2 class="energy__title main__title">
 						Stayin' alive, stayin' alive.

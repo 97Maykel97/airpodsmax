@@ -44,3 +44,10 @@ body {
 	font-weight: 700;
 	margin-bottom: 20px;
 }
+
+.content-item {
+	display: none;
+	&__active {
+		display: inline-block;
+	}
+}
